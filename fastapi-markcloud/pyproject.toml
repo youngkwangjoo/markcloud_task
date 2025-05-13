@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fastapi-markcloud"
+version = "0.1.0"
+description = ""
+authors = ["youngkwangjoo <dudrknd1642@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi_markcloud", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+jinja2 = "^3.1.6"
+python-multipart = "^0.0.20"
+sqlalchemy = "^2.0.40"
+aiosqlite = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
